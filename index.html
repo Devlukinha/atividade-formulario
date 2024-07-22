@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade Formulário 22/07</title>
+  </head>
+  <body>
+    <main>
+      <form action="#" method="post">
+        <h2>Envie uma mensagem abaixo preenchendo o <br> formulário abaixo</h2>
+<div class="preencher">
+    
+            <label for="nome">Seu Nome:</label> <br>
+            <input type="text" id="name" placeholder="Meu Nome E Sobrenome" />
+            <br/>
+            <br/>
+    
+            <label for="telefone">Seu Telefone:</label> <br>
+            <input type="tel" id="telefone" placeholder="99999999" /> <br />
+            <br/>
+    
+            <label for="email">Seu Email</label> <br>
+            <input type="email" id="email" placeholder="meuemail@exemplo.com.br"/>
+            <br/>
+            <br/>
+    
+            <label for="novidades">Deseja receber nossas novidades?</label> <br/>
+            <br/>
+</div>
+
+        <div class="msg">
+            <input type="radio" name="novidades" id="novidades"/> Sim
+            <input type="radio" name="novidades" id="novidades"/> Não
+        </div>
+        <br> <br>
+
+        <label for="msg">Sua Mensagem</label> <br/>
+        <br/>
+        <textarea
+          name="msg"
+          id="msg"
+          rows="10"
+          cols="50"
+          placeholder="Minha mensagem de exemplo"
+        ></textarea> <br> <br>
+
+        <button>Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
